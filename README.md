@@ -57,7 +57,7 @@
 
 ```bash
 # Clone hoặc download project
-git clone https://github.com/your-username/woocommerce-scraper.git
+git clone https://github.com/thredeisacoder/WooCommerce-Scraper
 cd woocommerce-scraper
 
 # Cài đặt packages
