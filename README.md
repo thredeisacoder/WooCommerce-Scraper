@@ -58,7 +58,7 @@
 ```bash
 # Clone hoặc download project
 git clone https://github.com/thredeisacoder/WooCommerce-Scraper
-cd woocommerce-scraper
+cd WooCommerce-Scraper
 
 # Cài đặt packages
 pip install -r requirements.txt
