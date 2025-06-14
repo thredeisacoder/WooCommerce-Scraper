@@ -1,0 +1,107 @@
+{
+  "default_settings": {
+    "delay": 1.0,
+    "max_pages": 5,
+    "timeout": 30,
+    "max_retries": 3,
+    "use_proxy": true
+  },
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.5",
+    "Accept-Encoding": "gzip, deflate",
+    "Connection": "keep-alive",
+    "Upgrade-Insecure-Requests": "1"
+  },
+  "selectors": {
+    "product_containers": [
+      "li.product",
+      ".wc-block-grid__product",
+      ".product-item",
+      ".woocommerce-product",
+      ".type-product",
+      "[class*=\"product\"]",
+      ".product",
+      ".products li"
+    ],
+    "title": [
+      "h2.woocommerce-loop-product__title",
+      "h3.woocommerce-loop-product__title",
+      ".wc-block-grid__product-title",
+      ".product-title",
+      ".product-item-title",
+      "a"
+    ],
+    "price": [
+      "span.woocommerce-Price-amount",
+      ".woocommerce-Price-amount bdi",
+      ".price .amount",
+      ".price bdi",
+      ".price",
+      ".wc-block-grid__product-price",
+      ".product-price"
+    ],
+    "link": [
+      "a.woocommerce-LoopProduct-link",
+      "a.wc-block-grid__product-link",
+      ".product-item-link",
+      "h2 a",
+      "h3 a",
+      "a"
+    ],
+    "image": [
+      "img.attachment-woocommerce_thumbnail",
+      "img.wp-post-image",
+      ".wc-block-grid__product-image img",
+      ".product-image img",
+      "img"
+    ],
+    "description": [
+      ".woocommerce-product-details__short-description",
+      ".product-short-description",
+      ".entry-summary p",
+      ".product-excerpt",
+      ".product-description",
+      ".wc-product-description",
+      "p.product-excerpt",
+      ".summary .description",
+      ".product-summary p",
+      "[class*=\"description\"]",
+      "p"
+    ],
+    "sku": [
+      ".sku",
+      ".product-sku",
+      ".woocommerce-product-sku",
+      "[class*=\"sku\"]",
+      ".product-meta .sku",
+      ".product-code",
+      "[data-sku]"
+    ],
+    "stock": [
+      ".stock",
+      ".availability",
+      ".in-stock",
+      ".out-of-stock",
+      ".stock-status",
+      ".woocommerce-stock-status",
+      "[class*=\"stock\"]",
+      ".product-stock",
+      ".inventory-status"
+    ],
+    "category": [
+      ".product-category",
+      ".category",
+      ".woocommerce-product-category",
+      ".product-cat",
+      "[class*=\"category\"]",
+      ".breadcrumb a",
+      ".product-meta .category"
+    ]
+  },
+  "export_options": {
+    "default_json_file": "products.json",
+    "default_csv_file": "products.csv"
+  }
+} 
